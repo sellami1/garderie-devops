@@ -112,14 +112,34 @@ Dans la VM Vagrant, l'application est accessible sur le port 3000 exposé par le
 
 ## Captures d'écran
 
-Ce dossier doit contenir les captures demandées lors de la validation du projet :
+### Interromption de Pipeline Jenkins
 
-- pipeline Jenkins exécuté avec succès
-- images Docker Hub publiées
-- VM Vagrant démarrée
-- playbook Ansible exécuté
-- conteneurs Docker actifs
-- application accessible via navigateur
+![Pipeline Jenkins interrompu avec succès](screenshots/err-pipeline.png)
+
+### Pipeline Jenkins réussi
+
+![Pipeline Jenkins exécuté avec succès](screenshots/jenkins-pipeline-success.png)
+
+### Images publiées sur Docker Hub
+
+![Images frontend et backend publiées sur Docker Hub](screenshots/dockerhub-images.png)
+
+### VM Vagrant démarrée
+
+![VM Ubuntu démarrée avec Vagrant](screenshots/vagrant-vm-running.png)
+
+### Provisionnement Ansible réussi
+
+![Exécution réussie du playbook Ansible](screenshots/ansible-provisioning-success.png)
+
+### Conteneurs Docker actifs
+
+![Conteneurs frontend et backend en cours d'exécution](screenshots/docker-containers-running.png)
+
+### Application accessible depuis le navigateur
+
+![Application Ma Garderie ouverte dans un navigateur depuis une autre machine](screenshots/application-browser-access.png)
+
 
 ## Dépôt GitHub
 
