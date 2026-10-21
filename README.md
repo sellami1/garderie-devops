@@ -130,7 +130,7 @@ Dans la VM Vagrant, l'application est accessible sur le port 3000 exposé par le
 
 ### Provisionnement Ansible réussi
 
-![Exécution réussie du playbook Ansible](screenshots/ansible-provisioning-success.png)
+![Exécution réussie du playbook Ansible](screenshots/ansi-prov.png)
 
 ### Conteneurs Docker actifs
 
