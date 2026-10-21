@@ -134,7 +134,7 @@ Dans la VM Vagrant, l'application est accessible sur le port 3000 exposé par le
 
 ### Conteneurs Docker actifs
 
-![Conteneurs frontend et backend en cours d'exécution](screenshots/docker-containers-running.png)
+![Conteneurs frontend et backend en cours d'exécution](screenshots/run-dkr.png.png)
 
 ### Application accessible depuis le navigateur
 
