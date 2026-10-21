@@ -3,15 +3,15 @@ pipeline {
 
   environment {
     DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
-    FRONTEND_IMAGE = 'your-dockerhub-user/garderie-frontend'
-    BACKEND_IMAGE = 'your-dockerhub-user/garderie-backend'
+    FRONTEND_IMAGE = 'kadhemsellami/garderie-frontend'
+    BACKEND_IMAGE = 'kadhemsellami/garderie-backend'
     IMAGE_TAG = "${env.GIT_COMMIT.take(7)}"
   }
 
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/your-user/garderie-devops.git'
+        git branch: 'main', url: 'https://github.com/sellami1/garderie-devops.git'
       }
     }
 

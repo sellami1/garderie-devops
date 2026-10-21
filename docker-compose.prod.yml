@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   backend:
-    image: your-dockerhub-user/garderie-backend:latest
+    image: kadhemsellami/garderie-backend:latest
     container_name: garderie-backend
     ports:
       - '4000:4000'
@@ -12,7 +12,7 @@ services:
       - garderie-net
 
   frontend:
-    image: your-dockerhub-user/garderie-frontend:latest
+    image: kadhemsellami/garderie-frontend:latest
     container_name: garderie-frontend
     ports:
       - '3000:3000'
