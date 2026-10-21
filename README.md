@@ -103,8 +103,8 @@ Puis accéder à :
 
 Remplacer les valeurs ci-dessous par les bonnes références publiques Docker Hub :
 
-- Frontend : username/garderie-frontend
-- Backend : username/garderie-backend
+- Frontend : kadhemsellami/garderie-frontend
+- Backend : kadhemsellami/garderie-backend
 
 ## Accès à l'application déployée
 
