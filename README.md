@@ -126,7 +126,7 @@ Dans la VM Vagrant, l'application est accessible sur le port 3000 exposé par le
 
 ### VM Vagrant démarrée
 
-![VM Ubuntu démarrée avec Vagrant](screenshots/vagrant-vm-running.png)
+![VM Ubuntu démarrée avec Vagrant](screenshots/ssh-tovm.png)
 
 ### Provisionnement Ansible réussi
 
