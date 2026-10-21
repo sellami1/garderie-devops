@@ -3,6 +3,15 @@ Vagrant.configure('2') do |config|
   config.vm.hostname = 'garderie-vm'
 
   config.vm.network 'private_network', ip: '192.168.56.10'
+  config.vm.synced_folder '.', '/vagrant',
+    type: 'rsync',
+    rsync__exclude: [
+      '.git/',
+      '.vagrant/',
+      'frontend/node_modules/',
+      'frontend/.next/',
+      'backend/node_modules/'
+    ]
 
   config.vm.provider 'libvirt' do |libvirt|
     libvirt.driver = 'kvm'

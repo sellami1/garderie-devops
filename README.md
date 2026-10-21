@@ -118,11 +118,11 @@ Dans la VM Vagrant, l'application est accessible sur le port 3000 exposé par le
 
 ### Pipeline Jenkins réussi
 
-![Pipeline Jenkins exécuté avec succès](screenshots/jenkins-pipeline-success.png)
+![Pipeline Jenkins exécuté avec succès](screenshots/success.png)
 
 ### Images publiées sur Docker Hub
 
-![Images frontend et backend publiées sur Docker Hub](screenshots/dockerhub-images.png)
+![Images frontend et backend publiées sur Docker Hub](screenshots/images-pushed.png)
 
 ### VM Vagrant démarrée
 
