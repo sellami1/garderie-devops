@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  backend:
+    image: your-dockerhub-user/garderie-backend:latest
+    container_name: garderie-backend
+    ports:
+      - '4000:4000'
+    environment:
+      PORT: 4000
+    networks:
+      - garderie-net
+
+  frontend:
+    image: your-dockerhub-user/garderie-frontend:latest
+    container_name: garderie-frontend
+    ports:
+      - '3000:3000'
+    environment:
+      NEXT_PUBLIC_API_URL: http://backend:4000
+    depends_on:
+      - backend
+    networks:
+      - garderie-net
+
+networks:
+  garderie-net:
+    driver: bridge

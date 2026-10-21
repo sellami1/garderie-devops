@@ -1,0 +1,6 @@
+---
+- name: Provisionner la VM Ubuntu avec Docker
+  hosts: all
+  become: true
+  roles:
+    - docker
