@@ -138,7 +138,7 @@ Dans la VM Vagrant, l'application est accessible sur le port 3000 exposé par le
 
 ### Application accessible depuis le navigateur
 
-![Application Ma Garderie ouverte dans un navigateur depuis une autre machine](screenshots/application-browser-access.png)
+![Application Ma Garderie ouverte dans un navigateur depuis une autre machine](screenshots/workin.png)
 
 
 ## Dépôt GitHub
